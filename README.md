@@ -38,3 +38,5 @@
 ### Prod Dependencies
 
 - Fastify
+- dotenv
+- zod
