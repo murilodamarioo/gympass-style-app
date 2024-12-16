@@ -28,13 +28,13 @@
 
 ## Dependencies
 
-# Dev Dependencies
+### Dev Dependencies
 
 - @types/node
 - tsup
 - tsx
 - typescript
 
-# Prod Dependencies
+### Prod Dependencies
 
 - Fastify
