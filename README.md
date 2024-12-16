@@ -26,7 +26,7 @@
 - [ ] All data lists must be paginated with 20 items per page;
 - [ ] Users must be identified by a JWT (JSON Web Token);
 
-## Depencies
+## Dependencies
 
 # Dev Dependencies
 
