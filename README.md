@@ -30,4 +30,11 @@
 
 # Dev Dependencies
 
+- @types/node
+- tsup
+- tsx
+- typescript
+
 # Prod Dependencies
+
+- Fastify
