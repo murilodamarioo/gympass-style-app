@@ -36,6 +36,8 @@
 - typescript
 - prisma
 - @types/bcryptjs
+- vitest
+- vite-tsconfig-paths
 
 ### Prod Dependencies
 
