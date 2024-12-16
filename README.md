@@ -38,6 +38,7 @@
 - @types/bcryptjs
 - vitest
 - vite-tsconfig-paths
+- @vitest/coverage-v8
 
 ### Prod Dependencies
 
