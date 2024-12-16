@@ -34,9 +34,11 @@
 - tsup
 - tsx
 - typescript
+- prisma
 
 ### Prod Dependencies
 
 - Fastify
 - dotenv
 - zod
+- @prisma/client
