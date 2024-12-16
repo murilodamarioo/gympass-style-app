@@ -35,6 +35,7 @@
 - tsx
 - typescript
 - prisma
+- @types/bcryptjs
 
 ### Prod Dependencies
 
@@ -42,3 +43,4 @@
 - dotenv
 - zod
 - @prisma/client
+- bcryptjs
