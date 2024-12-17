@@ -6,7 +6,7 @@ import { InMemoryUsersRepository } from './repositories/in-memory/in-memory-user
 
 describe('Register Use Case', () => {
   it('should hash user password upon registration', async () => {
-    const usersRepository = new InMemoryUsersRepository
+    const usersRepository = new InMemoryUsersRepository()
     const registerUseCase = new RegisterUseCase(usersRepository)
 
     const { user } = await registerUseCase.execute({
