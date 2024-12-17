@@ -13,9 +13,9 @@
 - [ ] It must be possible to register a gym;
 
 ## RNs (Business Rules)
-- [ ] User must not be able to register with a duplicate email;
-- [ ] User cannot perform more than one check-in on the same day;
-- [ ] User cannot check in unless they are within 100 meters of the gym;
+- [X] User must not be able to register with a duplicate email;
+- [X] User cannot perform more than one check-in on the same day;
+- [X] User cannot check in unless they are within 100 meters of the gym;
 - [ ] Check-in can only be validated up to 20 minutes after it is created;
 - [ ] Check-in can only be validated by administrators;
 - [ ] A gym can only be registered by administrators;
