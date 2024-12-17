@@ -47,3 +47,4 @@
 - zod
 - @prisma/client
 - bcryptjs
+- dayjs
