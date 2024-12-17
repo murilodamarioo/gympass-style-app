@@ -4,8 +4,8 @@
 - [X] It must be possible to register;
 - [X] It must be possible to authenticate;
 - [X] It must be possible to retrieve the profile of a logged-in user;
-- [ ] It must be possible to get the number of check-ins performed by the logged-in user;
-- [ ] It must be possible for the user to access their check-in history;
+- [X] It must be possible to get the number of check-ins performed by the logged-in user;
+- [X] It must be possible for the user to access their check-in history;
 - [ ] It must be possible for the user to search for nearby gyms;
 - [ ] It must be possible for the user to search for gyms by name;
 - [X] It must be possible for the user to check in at a gym;
@@ -17,13 +17,13 @@
 - [X] User cannot perform more than one check-in on the same day;
 - [X] User cannot check in unless they are within 100 meters of the gym;
 - [ ] Check-in can only be validated up to 20 minutes after it is created;
-- [ ] Check-in can only be validated by administrators;
+- [ ] Check-in can only be validated by administrators;6
 - [ ] A gym can only be registered by administrators;
 
 ## RNFs (Non-Functional Requirements)
 - [X] User passwords must be encrypted;
 - [X] Application data must be persisted in a PostgreSQL database;
-- [ ] All data lists must be paginated with 20 items per page;
+- [X] All data lists must be paginated with 20 items per page;
 - [ ] Users must be identified by a JWT (JSON Web Token);
 
 ## Dependencies
