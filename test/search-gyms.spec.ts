@@ -1,7 +1,6 @@
 import { expect, describe, it, beforeEach } from 'vitest'
 import { InMemoryGymsRepository } from './repositories/in-memory/in-memory-gyms-repository'
 import { SearchGymsUseCase } from '@/use-cases/search-gyms'
-import { title } from 'process'
 
 let gymsRepository: InMemoryGymsRepository
 let sut: SearchGymsUseCase
@@ -41,7 +40,7 @@ describe('Search gyms use case', () => {
     ])
   })
 
-  it('should be able to fecth paginated check-in history', async () => {
+  it('should be able to fetch paginated check-in history', async () => {
     for (let i = 1; i <= 22; i++) {
       await gymsRepository.create({
         title: `Javascript Gym ${i}`,
