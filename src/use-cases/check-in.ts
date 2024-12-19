@@ -19,10 +19,10 @@ interface CheckInUseCaseResponse {
 
 export class CheckInUseCase {
 
-  constructor(private checkInRepository: CheckInsRepository, private gymsReposiotry: GymsRepository) {}
+  constructor(private checkInRepository: CheckInsRepository, private gymsRepository: GymsRepository) {}
 
   async execute({ userId, gymId, userLatitude, userLongitude }: CheckInUseCaseRequest): Promise<CheckInUseCaseResponse> {
-    const gym = await this.gymsReposiotry.findById(gymId)
+    const gym = await this.gymsRepository.findById(gymId)
 
     if (!gym) throw new ResourceNotFoundError()
 
