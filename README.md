@@ -7,16 +7,16 @@
 - [X] It must be possible to get the number of check-ins performed by the logged-in user;
 - [X] It must be possible for the user to access their check-in history;
 - [X] It must be possible for the user to search for nearby gyms (10km);
-- [ ] It must be possible for the user to search for gyms by name;
+- [X] It must be possible for the user to search for gyms by name;
 - [X] It must be possible for the user to check in at a gym;
-- [ ] It must be possible to validate a user's check-in;
+- [X] It must be possible to validate a user's check-in;
 - [X] It must be possible to register a gym;
 
 ## RNs (Business Rules)
 - [X] User must not be able to register with a duplicate email;
 - [X] User cannot perform more than one check-in on the same day;
 - [X] User cannot check in unless they are within 100 meters of the gym;
-- [ ] Check-in can only be validated up to 20 minutes after it is created;
+- [X] Check-in can only be validated up to 20 minutes after it is created;
 - [ ] Check-in can only be validated by administrators;6
 - [ ] A gym can only be registered by administrators;
 
