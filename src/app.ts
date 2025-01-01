@@ -1,4 +1,4 @@
-import { appRoutes } from './http/routes/routes'
+import { appRoutes } from './http/controllers/users/routes'
 import fastifyJwt from '@fastify/jwt'
 import { ZodError } from 'zod'
 import fastify from 'fastify'
