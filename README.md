@@ -39,6 +39,8 @@
 - vitest
 - vite-tsconfig-paths
 - @vitest/coverage-v8
+- supertest
+- @types/supertest
 
 ### Prod Dependencies
 

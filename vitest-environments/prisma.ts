@@ -1,4 +1,4 @@
-import 'dotenv'
+import 'dotenv/config'
 import { randomUUID } from "crypto";
 import { execSync } from 'child_process';
 import { Environment } from "vitest";
@@ -9,7 +9,7 @@ function generateDataBaseURL(schema:string){
 
   const envDatabaseURL = process.env.DATABASE_URL
   if(!envDatabaseURL){
-    throw new Error("Fill environment variable DATABASE_URL")
+    throw new Error("Provide a DATABASE_URL environment variable.")
   }
 
   const url = new URL(envDatabaseURL)
