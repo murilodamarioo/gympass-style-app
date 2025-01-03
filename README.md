@@ -50,3 +50,4 @@
 - @prisma/client
 - bcryptjs
 - dayjs
+- @fastify/cookie
