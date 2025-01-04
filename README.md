@@ -17,14 +17,14 @@
 - [X] User cannot perform more than one check-in on the same day;
 - [X] User cannot check in unless they are within 100 meters of the gym;
 - [X] Check-in can only be validated up to 20 minutes after it is created;
-- [ ] Check-in can only be validated by administrators;6
-- [ ] A gym can only be registered by administrators;
+- [X] Check-in can only be validated by administrators;
+- [X] A gym can only be registered by administrators;
 
 ## RNFs (Non-Functional Requirements)
 - [X] User passwords must be encrypted;
 - [X] Application data must be persisted in a PostgreSQL database;
 - [X] All data lists must be paginated with 20 items per page;
-- [ ] Users must be identified by a JWT (JSON Web Token);
+- [X] Users must be identified by a JWT (JSON Web Token);
 
 ## Dependencies
 
