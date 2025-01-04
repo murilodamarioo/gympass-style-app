@@ -51,3 +51,6 @@
 - bcryptjs
 - dayjs
 - @fastify/cookie
+
+
+## Routes
