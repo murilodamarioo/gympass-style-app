@@ -210,7 +210,7 @@ Authorization: Bearer <token>
       "created_at": "Date",
       "validated_at": "Date",
       "gym_id": "string",
-      'user_id": "string",
+      "user_id": "string",
     ] 
   }
   ```
