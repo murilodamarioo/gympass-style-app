@@ -35,7 +35,7 @@
 
 - 🟢 **Language:** [Node.js, Typescript]
 - 🏗️ **Framework:** [Fastify]
-- 🗄️ **Database:** [PostgreSQL, MongoDB]
+- 🗄️ **Database:** [PostgreSQL]
 - 🔒 **Authentication:** [JWT]
 - 🚢 **Other Technologies:** [Docker, CI]
 
