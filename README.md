@@ -35,7 +35,7 @@
 
 - 🟢 **Language:** [Node.js, Typescript]
 - 🏗️ **Framework:** [Fastify]
-- 🗄️ **Database:** [PostgreSQL, MongoDB]
+- 🗄️ **Database:** [PostgreSQL]
 - 🔒 **Authentication:** [JWT]
 - 🚢 **Other Technologies:** [Docker, CI]
 
@@ -210,7 +210,7 @@ Authorization: Bearer <token>
       "created_at": "Date",
       "validated_at": "Date",
       "gym_id": "string",
-      'user_id": "string",
+      "user_id": "string",
     ] 
   }
   ```
